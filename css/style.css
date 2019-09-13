@@ -1,0 +1,20 @@
+a {
+    color: cyan;
+    text-decoration: none;
+}
+ul {
+    margin: 0;
+}
+.body {
+    border: 1px cyan solid;
+    margin: 24px;
+    padding: 24px;
+}
+.header {
+    display: flex;
+    justify-content: space-between
+}
+.nav {
+    display: flex;
+    list-style: none;
+}
