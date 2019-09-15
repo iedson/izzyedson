@@ -1,20 +1,48 @@
-a {
-    color: cyan;
-    text-decoration: none;
-}
-ul {
-    margin: 0;
-}
-.body {
-    border: 1px cyan solid;
-    margin: 24px;
+/* header css */
+.header {
+    border: 1px solid slategray;
+    background-color: rgb(183,221,230);
+    color: darkslategray;
+    display: flex;
+    font-size: 24px;
+    font-weight: bold;
+    justify-content: space-between;
     padding: 24px;
 }
-.header {
-    display: flex;
-    justify-content: space-between
+.nav-link {
+    padding: 5px;
+    color: darkslategray;
 }
-.nav {
+
+/* content css */
+.body {
+    background-color: white;
     display: flex;
-    list-style: none;
+    flex-direction: column;
+}
+.underline {
+    border-bottom: 5px solid black;
+}
+.section-content {
+    max-width: 1200px;
+    padding: 24px;
+}
+.section-main {
+    display: flex;
+    flex-grow: 0;
+    justify-content: center;
+}
+
+.portfolio-image {
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 0 18px;
+}
+
+/* footer */
+.footer {
+    background-color: darkslategray;
+    color: white;
+    text-align: center;
 }
