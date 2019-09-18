@@ -4,21 +4,29 @@
     background-color: rgb(183,221,230);
     color: darkslategray;
     display: flex;
+    font-family: Georgia;
     font-size: 24px;
     font-weight: bold;
     justify-content: space-between;
     padding: 24px;
 }
-.nav-link {
-    padding: 5px;
-    color: darkslategray;
+
+.button {
+    background-color: darkslategray;
+    border-radius: 6px;
+    color:rgb(241,223,201);
+    padding:6px 12px;
+}
+.button:hover {
+    background-color: lightslategray;
 }
 
 /* content css */
 .body {
-    background-color: white;
+    background-color: whitesmoke;
     display: flex;
     flex-direction: column;
+    font-family: 'Lucida Sans Typewriter' rel=https://www.fonts.com/font/monotype/lucida-sans?QueryFontType=Web&src=GoogleWebFonts;
 }
 .underline {
     border-bottom: 5px solid black;
@@ -32,12 +40,21 @@
     flex-grow: 0;
     justify-content: center;
 }
+.portfolio-grid {
+    display: flex;
+    flex-wrap: wrap:
+}
+.portfolio-grid-image {
+    height: 250px;
+    width: 215px;
+    margin: 0 18px;
+}
 
 .portfolio-image {
     float: left;
     height: 200px;
     width: 200px;
-    margin: 0 18px;
+    margin: 12px;
 }
 
 /* footer */
@@ -45,4 +62,15 @@
     background-color: darkslategray;
     color: white;
     text-align: center;
+}
+/** responsive styles screen size > 1024px **/
+@media (min-width: 1024px) and (max-width: 1399{
+.header-logo {
+    font-size: 48px;
+}
+}
+@media (min-width: 1400px){
+    .header-logo {
+        font-size: 96px;
+    }
 }
