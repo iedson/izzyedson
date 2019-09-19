@@ -1,6 +1,5 @@
 /* header css */
 .header {
-    border: 1px solid slategray;
     background-color: rgb(183,221,230);
     color: darkslategray;
     display: flex;
@@ -26,7 +25,26 @@
     background-color: whitesmoke;
     display: flex;
     flex-direction: column;
-    font-family: 'Lucida Sans Typewriter' rel=https://www.fonts.com/font/monotype/lucida-sans?QueryFontType=Web&src=GoogleWebFonts;
+    font-family: 'Lucida Sans Typewriter';
+}
+.image-wrapper {
+  display: inline-block;
+  margin-left: 50px;
+  position: relative;
+}
+.image {
+  height: 200px;
+  width: 250px;  
+}
+.image-label {
+  background-color: cyan;
+  color:  white;
+  font-size: 24px;
+  position: absolute;
+  bottom: 12px;
+  left: 0;
+  text-align: center;
+  width: 100%;
 }
 .underline {
     border-bottom: 5px solid black;
@@ -42,7 +60,7 @@
 }
 .portfolio-grid {
     display: flex;
-    flex-wrap: wrap:
+    flex-wrap: wrap;
 }
 .portfolio-grid-image {
     height: 250px;
@@ -63,14 +81,5 @@
     color: white;
     text-align: center;
 }
-/** responsive styles screen size > 1024px **/
-@media (min-width: 1024px) and (max-width: 1399{
-.header-logo {
-    font-size: 48px;
-}
-}
-@media (min-width: 1400px){
-    .header-logo {
-        font-size: 96px;
-    }
-}
+
+
