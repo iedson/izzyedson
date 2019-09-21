@@ -10,22 +10,28 @@
     padding: 24px;
 }
 
-.button {
-    background-color: darkslategray;
-    border-radius: 6px;
-    color:rgb(241,223,201);
-    padding:6px 12px;
-}
-.button:hover {
-    background-color: lightslategray;
-}
-
 /* content css */
 .body {
     background-color: whitesmoke;
     display: flex;
     flex-direction: column;
     font-family: 'Lucida Sans Typewriter';
+}
+.button {
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    padding: 6px;
+}
+.contact-image {
+    background:url(https://www.linkedin.com/in/iedson/);
+    cursor:pointer;
+    border:none;
+    width:100px;
+    height:100px;
+}
+.contact-image:active {
+    background:url(https://www.linkedin.com/in/iedson/)
 }
 .image-wrapper {
   display: inline-block;
@@ -34,7 +40,7 @@
 }
 .image {
   height: 200px;
-  width: 250px;  
+  width: 200px;  
 }
 .image-label {
   background-color: cyan;
@@ -45,6 +51,10 @@
   left: 0;
   text-align: center;
   width: 100%;
+}
+.image-wrapper {
+    display: inline-block;
+    position: relative;
 }
 .underline {
     border-bottom: 5px solid black;
