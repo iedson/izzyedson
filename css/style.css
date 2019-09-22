@@ -9,6 +9,16 @@
     justify-content: space-between;
     padding: 24px;
 }
+.logo {
+    margin-left: auto;
+    float:
+}
+
+/* HTML, Body */
+html, body {
+    height: 100%;
+    margin: 0;
+  }
 
 /* content css */
 .body {
@@ -18,9 +28,9 @@
     font-family: 'Lucida Sans Typewriter';
 }
 .button {
-    border: 1px solid white;
+    border: 1px solid darkslategray;
     border-radius: 10px;
-    color: white;
+    color: darkslategray;
     padding: 6px;
 }
 .contact-image {
@@ -33,6 +43,11 @@
 .contact-image:active {
     background:url(https://www.linkedin.com/in/iedson/)
 }
+.icon {
+    height: 2.5rem;
+    width: 2.8rem;
+    margin-right: 0.625rem; 
+}
 .image-wrapper {
   display: inline-block;
   margin-left: 50px;
@@ -41,20 +56,6 @@
 .image {
   height: 200px;
   width: 200px;  
-}
-.image-label {
-  background-color: cyan;
-  color:  white;
-  font-size: 24px;
-  position: absolute;
-  bottom: 12px;
-  left: 0;
-  text-align: center;
-  width: 100%;
-}
-.image-wrapper {
-    display: inline-block;
-    position: relative;
 }
 .underline {
     border-bottom: 5px solid black;
@@ -73,16 +74,23 @@
     flex-wrap: wrap;
 }
 .portfolio-grid-image {
+    align-items: center;
     height: 250px;
     width: 215px;
-    margin: 0 18px;
+    margin: 0 18 18 18px;
 }
 
 .portfolio-image {
     float: left;
     height: 200px;
     width: 200px;
-    margin: 12px;
+    margin: 24px;
+}
+.social-links-grid {
+    align-items: center;
+    height: 250px;
+    width: 215px;
+    margin: 0 18px;
 }
 
 /* footer */
