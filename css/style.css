@@ -4,20 +4,17 @@
     color: darkslategray;
     display: flex;
     font-family: 'linotype-didot', 'serif';
-    font-size: 24px;
+    font-size: 2rem;
     font-weight: bold;
     justify-content: space-between;
     padding: 24px;
     position: relative;
 }
-.logo {
-    position: absolute;
-}
 
 /* HTML, Body */
 html, body {
-    height: 100%;
-    margin: 0;
+    height: auto;
+    margin: auto;
   }
 
 /* content css */
@@ -25,13 +22,21 @@ html, body {
     background-color: whitesmoke;
     display: flex;
     flex-direction: column;
-    height: 100vh;
 }
 .button {
     border: 1px solid darkslategray;
     border-radius: 10px;
     color: darkslategray;
     padding: 6px;
+    transition: background 300ms ease-in;
+}
+.button:hover {
+    background: #f4f4f4;
+}
+.logo {
+    height: 20vh;
+    flex: 0, 1, 20vw; 
+    margin: 0;
 }
 .contact-image {
     background:url(https://www.linkedin.com/in/iedson/);
@@ -67,19 +72,17 @@ html, body {
     position: relative;
     display: inline-block;
 }
-.underline {
-    border-bottom: 5px solid black;
-}
 .section-content {
-    max-width: 1000px;
-    padding: 48px;
+    max-width: 1200px;
     font-family: 'futura-pt', 'sans-serif';
-    font-size: 18px;
+    font-size: 1.3rem;
+    margin: auto;
 }
 .section-main {
-    display: flex;
-    flex-grow: 1;
+    display: inline-flex;
     justify-content: center;
+    padding-left: 4rem;
+    width: auto;
 }
 
 .portfolio-image {
@@ -94,24 +97,52 @@ html, body {
     justify-content: space-between;
     max-width: 1000px;
 }
+.underline {
+    border-bottom: 5px solid black;
+}
 
 /* footer */
 .footer {
     background-color: rgb(183,221,230);
     color: darkslategray;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    text-align: center;
 }
-/* Media Queries - Mobile Devices */
-@media(max-width: 480px) { 
 
-
+@media (max-width: 500px){
+    .header{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 0.3rem;
+        max-width: 500px
+    }
+    .body{
+        display: flex;
+        justify-content: space-evenly;
+        text-align: left;
+        max-width: 500px;
+        margin: 0;
+    }
+    .button{
+        padding: 0.3rem;
+    }
+    .portfolio-image{
+        margin: 0;
+    }
+    .section-main{
+        padding-right: 1.5rem;
+        padding-left: 5rem;
+        max-width: 375px;
+    }
+    .section-content{
+        padding: 1.5rem;
+        max-width: 400px;
+    }
 }
-/* Media Queries - Tablets */
-@media (max-width: 800px) {
 
-
-}
 
 
 
