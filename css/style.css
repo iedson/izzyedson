@@ -25,7 +25,6 @@ html, body {
     background-color: whitesmoke;
     display: flex;
     flex-direction: column;
-    font-family: 'futura-pt', 'sans-serif';
     height: 100vh;
 }
 .button {
@@ -74,6 +73,7 @@ html, body {
 .section-content {
     max-width: 1000px;
     padding: 48px;
+    font-family: 'futura-pt', 'sans-serif';
     font-size: 18px;
 }
 .section-main {
@@ -102,4 +102,16 @@ html, body {
     display: flex;
     justify-content: center;
 }
+/* Media Queries - Mobile Devices */
+@media(max-width: 480px) { 
+
+
+}
+/* Media Queries - Tablets */
+@media (max-width: 800px) {
+
+
+}
+
+
 
