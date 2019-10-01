@@ -76,6 +76,8 @@ h3 {
 .image-wrapper {
     position: relative;
     display: inline-block;
+    margin-right: 1rem;
+    margin-top: 0.3rem;
 }
 li {
     font-size: 16px;
@@ -107,8 +109,8 @@ p {
 .social-links-grid {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    max-width: 1200px;
+    justify-content: space-evenly;
+    max-width: 900px;
 }
 .underline {
     border-bottom: 3px solid black;
