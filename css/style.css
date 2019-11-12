@@ -3,12 +3,15 @@
     background-color: rgb(183,221,230);
     color: darkslategray;
     display: flex;
-    font-family: 'linotype-didot', 'serif';
+    font-family: 'Darker Grotesque', sans-serif;
     font-size: 2rem;
     font-weight: bold;
     justify-content: space-between;
     padding: 24px;
     position: relative;
+}
+nav {
+    padding: 4rem;
 }
 
 /* HTML, Body */
@@ -23,6 +26,7 @@ html, body {
     display: flex;
     flex-direction: column;
     height: auto;
+    font-family: 'Darker Grotesque', sans-serif;
 }
 .button {
     border: 1px solid darkslategray;
@@ -86,6 +90,7 @@ li {
 p {
     font-size: 16px;
     font-weight: normal;
+    font-family: 'Darker Grotesque', sans-serif;
 }
 .section-content {
     height: 100%;
@@ -94,7 +99,7 @@ p {
 }
 .section-main {
     display: inline-block;
-    font-family: 'futura-pt', 'sans-serif';
+    font-family: 'Darker Grotesque', sans-serif;
     font-size: 1.3rem;
     justify-content: center;
     width: auto;
