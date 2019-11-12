@@ -39,6 +39,9 @@ html, body {
 .button:hover {
     background: #f4f4f4;
 }
+.contact {
+    text-align: center;
+}
 .logo {
     height: 20vh;
     flex: 0, 1, 20vw; 
