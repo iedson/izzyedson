@@ -1,40 +1,40 @@
 /* header css */
 .header {
-    background-color: rgb(183,221,230);
-    color: darkslategray;
-    display: flex;
-    font-family: 'Darker Grotesque', sans-serif;
-    font-size: 2rem;
-    font-weight: bold;
-    justify-content: space-between;
-    padding: 24px;
-    position: relative;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 28px;
+
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+    margin-top: 2% 0;
+    padding: 500px 64px 64px 64px;
 }
 nav {
-    padding: 4rem;
+    background-color: #2B2928;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    padding: 0px 10px;
 }
 
 /* HTML, Body */
-html, body {
-    height: 100%;
-    margin: auto;
-  }
+
 
 /* content css */
 .body {
-    background-color: whitesmoke;
-    display: flex;
-    flex-direction: column;
-    height: auto;
-    font-family: 'Darker Grotesque', sans-serif;
+    background: whitesmoke;
+    display:flex;
+    flex-direction:column;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
 }
 .button {
-    border: 1px solid darkslategray;
-    border-radius: 10px;
-    color: darkslategray;
-    padding: 6px;
-    margin-top: -50px;
-    transition: background 300ms ease-in;
+    background-color: #569182;
+    border: none;
+    color: #DDE3E6;
+    border-radius: 0.5rem;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
 }
 .button:hover {
     background: #f4f4f4;
